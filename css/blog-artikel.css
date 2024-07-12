@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Final Fantasy';
+    src: url(../fonts/OPTIEngeEtienne.otf);
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway-Regular';
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.navigation .link {
+    color: #05445E;
+}
+
+.navigation .link:visited {
+    color: #05445E;
+}
+
+footer .link {
+    color: white;
+}
+
+footer .link:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+/* Header */
+
+header {
+    background-image: url(../bilder/wave-background.webp);
+    background-color: #CFEDEE;
+    height: 800px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 60px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'Final Fantasy';
+    letter-spacing: 8px;
+    font-size: 5em;
+    color: #05445E;
+}
+
+.blog-icon img {
+    width: 80%;
+    height: auto;
+}
+
+/* Main */
+
+h2 {
+    color: #05445E;
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrap {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.paragraph p {
+    padding: 30px;
+}
+
+.paragraph img {
+    width: 400px;
+}
+
+.coming-soon {
+    text-align: center;
+    color: #05445E;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.coming-soon img {
+    width: 300px;
+}
+
+.empty {
+    display: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: #89BE63;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-about, .footer-reiseziele {
+    margin: 0 150px;
+}
+
+.footer-about p, .footer-reiseziele p {
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.footer-about ul, .footer-reiseziele ul {
+    padding: 0;
+}
+
+.footer-about li, .footer-reiseziele li {
+    margin-bottom: 5px;
+}

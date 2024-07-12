@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Final Fantasy';
+    src: url(../fonts/OPTIEngeEtienne.otf);
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway-Regular';
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.navigation .link, .about-me .link, .artikel .link{
+    color: #05445E;
+}
+
+.navigation .link:visited, .about-me .link:visited , .artikel .link:visited{
+    color: #05445E;
+}
+
+.beliebt .link, footer .link {
+    color: white;
+}
+
+.beliebt .link:visited, footer .link:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+/* Header */
+
+header {
+    background-image: url(../bilder/wave-background.webp);
+    background-color: #CFEDEE;
+    height: 800px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 60px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'Final Fantasy';
+    letter-spacing: 8px;
+    font-size: 5em;
+    color: #05445E;
+}
+
+.blog-icon img {
+    width: 80%;
+    height: auto;
+}
+
+/* About */
+
+.top {
+    width: 60%;
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.about div {
+    margin: 0 30px;
+}
+
+.willkommen {
+    width: 400px;
+    text-align: center;
+}
+
+.willkommen p {
+    margin: 40px 0;
+}
+
+.about-me {
+    width: 300px;
+}
+
+.about-me img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.about-me .link:visited{
+    color: #05445E;
+}
+
+/* Beliebte Reiseziele */
+
+.beliebt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #AFCCA9;
+}
+
+.beliebt-wrap {
+    width: 60%;
+    max-width: 1200px;
+}
+
+.beliebt-wrap h2 {
+    color: white;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.beliebt-wrap .link {
+    font-size: 20px;
+}
+
+.beliebt-ziel {
+    padding: 10px;
+    border: 3px solid white;
+    margin: 20px 0;
+}
+
+.beliebt img {
+    max-width: 100%;
+}
+
+/* Artikel */
+
+.artikel {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.art-grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 800px;
+    margin: auto;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    width: 300px;
+}
+
+.art-img img {
+    width: 100%;
+    height: auto;
+}
+
+.art-entry {
+    margin: auto;
+    text-align: left;
+}
+
+/* Footer */
+
+footer {
+    background-color: #89BE63;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer-about, .footer-reiseziele {
+    margin: 0 150px;
+}
+
+.footer-about p, .footer-reiseziele p {
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.footer-about ul, .footer-reiseziele ul {
+    padding: 0;
+}
+
+.footer-about li, .footer-reiseziele li {
+    margin-bottom: 5px;
+}
